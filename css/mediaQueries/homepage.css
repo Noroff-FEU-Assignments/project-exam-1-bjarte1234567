@@ -1,0 +1,92 @@
+/* Carousell mq*/
+
+@media only screen and (max-width: 1385px) {
+  .slide {
+    flex: 0 0 50%;
+    height: 27rem;
+  }
+  .slide > img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .slide {
+    flex: 0 0 100%;
+    height: 27rem;
+  }
+  .slide > img {
+    width: 88%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .slide > img {
+    width: 14rem;
+  }
+}
+
+/* FAT */
+
+@media only screen and (max-width: 1000px) {
+  .fat-img {
+    width: 15rem;
+    height: 15rem;
+  }
+  p {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2,
+  h4 {
+    font-size: 1.2rem;
+  }
+  .banner-img {
+    height: 25rem;
+  }
+}
+
+@media only screen and (max-width: 755px) {
+  .fat-img {
+    width: 10rem;
+    height: 10rem;
+  }
+  p {
+    width: 8rem;
+  }
+  h2,
+  h4 {
+    font-size: 0.9rem;
+  }
+  .banner-img {
+    height: 20rem;
+  }
+}
+
+@media only screen and (max-width: 511px) {
+  .fat-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .fat-img {
+    width: 17rem;
+    height: 12rem;
+  }
+  p {
+    width: 17rem;
+  }
+  .banner-img {
+    height: 15rem;
+  }
+}

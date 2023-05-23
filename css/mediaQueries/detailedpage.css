@@ -1,0 +1,42 @@
+@media only screen and (max-width: 1000px) {
+    .fat-img{
+        width: 30rem;
+    }
+}
+@media only screen and (max-width: 680px){
+    .fat-img{
+        width: 20rem;
+    }
+    p{
+        width: 25rem;
+    }
+    #exercise-section, #food-section, #trap-section{
+        margin: 0;
+        margin-top: 5rem;
+        margin-left: 5rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .fat-img {
+        width: 15rem;
+    }
+    p{
+        width: 20rem;
+    }
+    h4{
+        font-size: 20px;
+    }
+    #exercise-section, #food-section, #trap-section{
+        margin: 0;
+        margin-top: 5rem;
+        margin-left: 2rem;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    p{
+width: 15rem;
+    }
+}
+

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/homepage.css" />
+    <link rel="stylesheet" href="/css/mediaQueries/homepage.css">
+    <script src="/Javascript/homepage.js" defer></script>
+    <script src="/Javascript/fat.js" defer></script>
+    
+
+  </head>
+  <nav class="nav-bar">
+    <a class="nav-button" href="homepage.html"
+      >Home
+      <img
+        class="dumbbell-icon"
+        src="/images/icons8-dumbbell-48.png"
+        alt="dumbbell-icon"
+    /></a>
+    <a class="nav-button" href="blogPage.html"
+      >Latest posts
+      <img
+        class="dumbbell-icon"
+        src="/images/icons8-dumbbell-48.png"
+        alt="dumbbell-icon"
+    /></a>
+    <a class="nav-button" href="info.html"
+      >About me
+      <img
+        class="dumbbell-icon"
+        src="/images/icons8-dumbbell-48.png"
+        alt="dumbbell-icon"
+    /></a>
+    <a class="nav-button" href="contact.html"
+      >Contact me
+      <img
+        class="dumbbell-icon"
+        src="/images/icons8-dumbbell-48.png"
+        alt="dumbbell-icon"
+    /></a>
+  </nav>
+  <body>
+    <h1>Train with me</h1>
+    <img
+      class="banner-img"
+      src="/images/victor-freitas-WvDYdXDzkhs-unsplash.jpg"
+      alt="A man in deadlift position"
+    />
+
+    <h2>Latest posts</h2>
+    <section aria-label="Newest posts">
+      <div class="carousel" data-carousel>
+        <button class="carousel-button prev" data-carousel-button="prev">
+          &#8592;
+        </button>
+        <button class="carousel-button next" data-carousel-button="next">
+          &#8594;
+        </button>
+        <ul data-slides>
+          <li class="slide" data-active="true">
+            <h3>todays bench press</h3>
+            <img
+            class="c-img"
+              src="/images/eddie-jones-HSyznLZ8Od8-unsplash.jpg"
+              alt="preparing for a bench press"
+              onclick="openModal(this);"
+            />
+          </li>
+          <li class="slide">
+            <h3>Coaching George today</h3>
+            <img
+            class="c-img"
+              src="/images/jakob-owens-qkQwDvRqQY8-unsplash.jpg"
+              alt="George flexing and screaming"
+              onclick="openModal(this);"
+            />
+          </li>
+          <li class="slide">
+            <h3>At the gym</h3>
+            <img
+            class="c-img"
+              src="/images/lyfefuel-phY30gaxqS8-unsplash.jpg"
+              alt="Image of the gym"
+              onclick="openModal(this);"
+            />
+          </li>
+          <li class="slide" data-active="true">
+            <h3>My coach Isabell</h3>
+            <img
+            class="c-img"
+              src="/images/jonathan-borba-R0y_bEUjiOM-unsplash.jpg"
+              alt="Isabell coaching me"
+              onclick="openModal(this);"
+            />
+          </li>
+          <li class="slide">
+            <h3>cheat meal</h3>
+            
+            <img
+            class="c-img"
+              src="/images/casey-lee-awj7sRviVXo-unsplash.jpg"
+              alt="Eating at a seafood resturante"
+              onclick="openModal(this);"
+            />
+          </li>
+          <li class="slide">
+            <h3>Meal prep for the week</h3>
+            <img
+            class="c-img"
+              src="/images/mike-von-CX0zKCHOpJo-unsplash.jpg"
+              alt="prepearing meal for a whole week"
+              onclick="openModal(this);"
+            />
+          </li>
+          <li class="slide" data-active="true">
+            <h3>Coaching Toms gym</h3>
+            <img
+            class="c-img"
+              src="/images/sven-mieke-Lx_GDv7VA9M-unsplash.jpg"
+              alt="Coaching other gym"
+              onclick="openModal(this);"
+            />
+          </li>
+          <li class="slide">
+            <h3>Starting with PreWorkout</h3>
+            <img
+            class="c-img"
+              src="/images/marwan-ahmed-J4PaQ1318C8-unsplash.jpg"
+              alt="Shaker with pre-workout"
+              onclick="openModal(this);"
+            />
+          </li>
+          <li class="slide">
+            <h3>Aware sponsor</h3>
+            <img
+            class="c-img"
+              src="/images/john-fornander-_0NZ82U6Gio-unsplash.jpg"
+              alt="Aware supplements"
+              onclick="openModal(this);"
+            />
+          </li>
+          <li class="slide" data-active="true">
+            <h3>Great steak</h3>
+            <img
+            class="c-img"
+
+              src="/images/hanxiao-zzxqoEa64_0-unsplash.jpg"
+              alt="Eating steak"
+              onclick="openModal(this);"
+            />
+          </li>
+          <li class="slide">
+            <h3>New client!</h3>
+            <img
+            class="c-img"
+
+              src="/images/sushil-ghimire-DC5akQJyH4I-unsplash.jpg"
+              alt="Training new client"
+              onclick="openModal(this);"
+            />
+          </li>
+          <li class="slide">
+            <h3>New pizza resturante</h3>
+            <img
+            class="c-img"
+
+              src="/images/mariusz-slonski-PwN_NOQVLzs-unsplash.jpg"
+              alt="Eating at a new pizza resturante"
+              onclick="openModal(this);"
+            />
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="all-posts-container">
+      <a class="all-posts" href="/html/blogPage.html">View all posts</a>
+    </div>
+
+    <h2>Food and training</h2>
+
+    <!-- The modal container -->
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01" alt="" />
+      <div id="caption"></div>
+    </div>
+    <!-- Food and training container -->
+    <div class="fat-container">
+      <div id="exercise-section" class="fat-section">
+        <h4>Top 5 Best Exercises</h4>
+        <img
+          class="fat-img"
+          src="/images/alonso-reyes-0HlI76m4jxU-unsplash.jpg"
+          alt="man holding a kettlebell, sideways"
+          onclick="openModal(this);"
+        />
+        <p>
+          In this post, I will show and tell more about my five best exercises
+          and why I think you should start doing them too.
+        </p>
+        <a class="fat-btn" href="detailed_page.html#exercise-section"
+          >View More</a
+        >
+      </div>
+      <div id="food-section" class="fat-section">
+        <h4>Food for Weight Gain</h4>
+        <img
+          class="fat-img"
+          src="/images/eiliv-aceron-w0JzqJZYX_E-unsplash.jpg"
+          alt="Four different healthy foods"
+          onclick="openModal(this);"
+        />
+        <p>
+          Learn how to gain weight in a healthy way and make food choices that
+          will help you avoid junk food.
+        </p>
+        <a class="fat-btn" href="detailed_page.html#food-section">View More</a>
+      </div>
+      <div id="trap-section" class="fat-section">
+        <h4>Avoid These Traps</h4>
+        <img
+          class="fat-img"
+          src="/images/annie-spratt-AjTclDIadpg-unsplash.jpg"
+          alt="Image of donuts"
+          onclick="openModal(this);"
+        />
+        <p>
+          Discover the foods you should stay away from and why you should not
+          consume them.
+        </p>
+        <a class="fat-btn" href="detailed_page.html#trap-section">View More</a>
+      </div>
+    </div>
+  </body>
+  <footer class="footer-container">
+    <p>Copyright © 2023 - All rights reserved</p>
+  </footer>
+</html>

@@ -1,0 +1,29 @@
+body {
+  margin: 0 auto;
+}
+h4 {
+  font-size: 2rem;
+}
+p{
+    max-width: 32rem;
+}
+
+.fat-img {
+  max-height: 40rem;
+  outline: 2px solid orange;
+  border-radius: 5px;
+}
+
+#food-section,
+#exercise-section,
+#trap-section {
+  margin-left: 10rem;
+  margin-top: 5rem;
+}
+
+.button{
+  text-decoration: none;
+}
+.button:hover{
+  font-size: 1.1rem;
+}

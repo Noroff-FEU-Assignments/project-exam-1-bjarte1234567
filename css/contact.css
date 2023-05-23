@@ -1,0 +1,76 @@
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info label {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.contact-info input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.message-container,
+.subject-container,
+.full-name-container,
+.email-address-container {
+  width: 20rem;
+  margin-top: 1rem;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.contact-info textarea#subject,
+.contact-info textarea#message {
+  height: 3rem;
+  width: 21rem;
+  border: 1px solid #ccc;
+}
+
+.contact-info textarea#message {
+  height: 12rem;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+input:valid {
+  border-color: green;
+}
+
+.error {
+  border: 2px solid red;
+}
+
+.valid {
+  border: 2px solid green;
+}
+
+#send-button {
+ margin-top: 2rem;
+ padding: 5px;
+ transition: width 2s, height 4s
+}
+
+#send-button:hover{
+    background-color:black ;
+    color: aliceblue;
+}
+
+.footer-container{
+  margin-top: 21.1rem;
+}

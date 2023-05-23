@@ -1,0 +1,37 @@
+@media only screen and (max-width: 530px) {
+    h1{
+        font-size: 2rem;
+    }
+    .contact-info textarea#subject,
+.contact-info textarea#message {
+  height: 6rem;
+  width: 19rem;
+  border: 1px solid #ccc;
+}
+
+.message-container,
+.subject-container,
+.full-name-container,
+.email-address-container {
+  width: 18rem;
+  margin-top: 1rem;
+}    
+    
+}
+
+@media only screen and (max-width: 400px) {
+    .message-container,
+.subject-container,
+.full-name-container,
+.email-address-container {
+  width: 15rem;
+  margin-top: 1rem;
+}  
+.contact-info textarea#subject,
+.contact-info textarea#message {
+  height: 6rem;
+  width: 16rem;
+  border: 1px solid #ccc;
+}
+
+}

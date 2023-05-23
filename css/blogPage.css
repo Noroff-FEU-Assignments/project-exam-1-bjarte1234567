@@ -1,0 +1,41 @@
+body {
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+p {
+  margin-bottom: 7rem;
+  width: 30rem;
+  color: black;
+}
+
+img {
+  width: 100%;
+  height: 35%;
+  outline: 2px solid orange;
+  border-radius: 5px;
+}
+
+h2,
+li {
+  display: flex;
+  justify-content: center;
+}
+
+/* Load more button */
+
+#btn-container{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+}
+.load-more-btn{
+  font-size: 1.2rem;
+}
+
+.load-more-btn:hover{
+  background-color:rgb(244, 243, 243);
+  color: rgb(8, 8, 8);
+}

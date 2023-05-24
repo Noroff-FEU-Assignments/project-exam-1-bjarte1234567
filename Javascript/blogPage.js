@@ -62,7 +62,3 @@ function loadMorePosts() {
 
 // Call the initial fetchPosts function to load the first page
 fetchPosts();
-
-
-
-

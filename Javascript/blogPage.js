@@ -3,8 +3,6 @@ const perPage = 10;
 let page = 1;
 let loadMoreBtn;
 
-console.log(apiBase);
-
 function fetchPosts() {
   const apiURL = `${apiBase}?per_page=${perPage}&page=${page}`;
 
@@ -64,3 +62,7 @@ function loadMorePosts() {
 
 // Call the initial fetchPosts function to load the first page
 fetchPosts();
+
+
+
+

@@ -1,67 +1,66 @@
-## Project Exam 1
+![image](https://github.com/bjarte1234567/Bjarte-OL-GameHub/assets/114422934/c90c1823-a35b-4ce8-a399-d62a792287cb)
 
-## Goal
 
-To put into practice the skills learned over your first year of studies.
+## Description
 
-## Brief
-You have been tasked with creating a blog site. You can choose the design and topics covered on the blog, but it should have at least the following pages:
--	Home page
--	About page
--	List of blog posts
--	Blog post specific pages
--	Contact page.
+This is a gaming website you can buy pc games, xbox and ps games. What makes this website unique, is that it is the first norwegian website that sells video games. This means that you can connect with us in norwegian if you are having issue, and for many this means it will feel more safe to buy games here, if you are from Norway. We at GameHub loves video games, And therefore we are always up to date with our games. We have different genres, everything from jrpg to souls-like games, to satisfy everyone. Our contact page is simple and easy, and if you wonder anything, or have trouble with your purchase or anything that concern us, you can either call inn or fill out our form.
 
-### Home Page
-The home page should have a ‘Latest Posts’ section which uses a carousel (slider) for users to click to view more posts. For example, by default the user can see four posts, then they can click an arrow on the right to view the next four posts, and click it again to view the next four posts. The user can also click back to view results they had previously seen. This must be implemented for desktop at least, but if you want a simpler layout for mobile, you can change it from being in a carousel.
 
-### Blog Page
 
-The blog posts page should show the first 10 blogs, and the user should click to view more results which then show underneath the first 10 blogs.
+- Great service!
+- Passionate people
+- Up to date games
+- Many genres from different developers
 
-### Blog Specific Page
+## Built With
 
-The content of the blog specific page should be dynamically built using a query string parameter based on whatever link the user clicked. The title of the blog specific page should change based on the blog that has been clicked on e.g. “My Blog | An Article I Wrote”.
 
-If images on the blog post page are clicked, a modal should appear giving the user a bigger view of that image. Clicking outside the image should hide the modal.
+- [javascript](https://Javascript.org/)
+- [HTML]
+- [CSS] 
+- [Bootstrap](https://getbootstrap.com)
 
-### Contact page
+## Getting Started
 
-Create a contact us page, there should be 4 textboxes on this page.
--	Name (Should be more than 5 characters long)
--	Email address (Must be a valid email address)
--	Subject (Should be more than 15 characters long)
--	Message content (Should be more than 25 characters long)
+### Installing
 
-Please use JavaScript for validation, show error messages if the values in the textboxes do not meet the requirements.
 
-### WordPress
+1. Clone the repo:
 
-The content for your website will be stored on a WordPress installation used as a Headless CMS. It’s important to note that we are only using WordPress to provide an API and add content for the blog. You should not submit a link to a WordPress site, but build your website using HTML, CSS and JavaScript and making a call to the WordPress REST API to fetch the data. 
+```bash
+git clone (https://github.com/bjarte1234567/Bjarte-OL-GameHub)
+```
 
-The project has two aspects:
--	API from your WordPress installation
--	Your website built with HTML, CSS and JavaScript
+2. Install the dependencies:
 
-You will need to add at least 12 blogs for your website. You can use lorem ipsum for paragraphs if you need, but headings, images etc. should all make sense.
+```
+npm install
+```
 
-Note that this is an exam, and therefore tutor support will be limited as per the study plan.
+### Running
 
-## Level 1 Process
 
-1.	Decide on the theme for the blog you’re going to make
-2.	Create a prototype of the website
-3.	Install WordPress on your web host and add the blogs on the admin panel. 
-4.	Use the GitHub repo created by GitHub Classroom for your files and deploy to Netlify
-5.	Build your website using HTML, CSS and JavaScript making a call to the WordPress REST API to fetch your data.
-6.	Install Hotjar on your website.
-7.	Ask users to test your website, and adjust based on their feedback and any insights from Hotjar.
-8.	Write a report documenting your project (template provided in this repository).
-9.	Submit your report as a PDF and a link to both your Netlify deployment and your GitHub repo.
- 
-## Level 2 Process (optional)
 
-1.	You can try adding a sort, filter, or search to the blog posts page allowing users to find the blog post more easily that they’re looking for. 
-2.	Post the data from the contact form to WordPress so you have the details saved.
-3.	Allow users to submit comments on a blog post, and post this data to WordPress
+To run the app, run the following commands:
+
+visit this site to open it. https://grand-narwhal-b1d5fe.netlify.app/
+
+
+
+## Contributing
+
+If you want to contribute to the project, you can send me a mail, and we can discuss it further from there. My mail is BjarteWork@hotmail.com
+
+## Contact
+
+This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
+
+[My Twitter page](www.twitter.com)
+
+[My LinkedIn page](www.linkedin.com)
+
+
+## Acknowledgments
+
+People i would like to thanks is my fellow students, teachers at noroff and friends and family for testing my site.
 

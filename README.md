@@ -1,16 +1,17 @@
-![image](https://github.com/bjarte1234567/Bjarte-OL-GameHub/assets/114422934/c90c1823-a35b-4ce8-a399-d62a792287cb)
+![blog](https://github.com/Noroff-FEU-Assignments/project-exam-1-bjarte1234567/assets/114422934/02ec5b78-7042-470a-a370-3b215e962720)
 
 
 ## Description
+This Blog is about working out, and inspire people to start their own journey or continue to make progress. On this blog i posts images of my clients (if allowed), my workouts,  what supplements i use and my cheat days were i eat something more unhealthy to keep my strict eating habits the rest of the week. What makes this blog unique is that i have experience as a nurse, nutrionist, personal trainer and now i'm a physiotherapist. I also have a past with eating disorder, so my knownledge in this field is quite high.
 
-This is a gaming website you can buy pc games, xbox and ps games. What makes this website unique, is that it is the first norwegian website that sells video games. This means that you can connect with us in norwegian if you are having issue, and for many this means it will feel more safe to buy games here, if you are from Norway. We at GameHub loves video games, And therefore we are always up to date with our games. We have different genres, everything from jrpg to souls-like games, to satisfy everyone. Our contact page is simple and easy, and if you wonder anything, or have trouble with your purchase or anything that concern us, you can either call inn or fill out our form.
+I have posts of what i mentioned earlier, which is in the carousel. I also have posts of what you should avoid eating, best exercises and food for a healthy weight gain/muscle gain. This is just a simple blog where i posts things i care about when training and what i mean you should do and avoid, but also teach you how to workout correctly. I will help you find the best suited workout routines, set up a meal plan and stay in touch with you everyday from 15-22. If you have any questions you can email me, send me a message or fill out the contact form.
 
 
 
 - Great service!
-- Passionate people
-- Up to date games
-- Many genres from different developers
+- Passionate about working out
+- workouts and meal plans suited for your purpose
+- Available everyday (except holidays)
 
 ## Built With
 
@@ -20,15 +21,13 @@ This is a gaming website you can buy pc games, xbox and ps games. What makes thi
 - [CSS] 
 - [Bootstrap](https://getbootstrap.com)
 
-## Getting Started
-
 ### Installing
 
 
 1. Clone the repo:
 
 ```bash
-git clone (https://github.com/bjarte1234567/Bjarte-OL-GameHub)
+git clone (https://github.com/Noroff-FEU-Assignments/project-exam-1-bjarte1234567)
 ```
 
 2. Install the dependencies:
@@ -43,13 +42,13 @@ npm install
 
 To run the app, run the following commands:
 
-visit this site to open it. https://grand-narwhal-b1d5fe.netlify.app/
+visit this site to open it. https://ornate-mousse-aad4ff.netlify.app/index.html
 
 
 
 ## Contributing
 
-If you want to contribute to the project, you can send me a mail, and we can discuss it further from there. My mail is BjarteWork@hotmail.com
+If you want to contribute to the project, you can visit this site: https://ornate-mousse-aad4ff.netlify.app/contact.html. fill out the contact form and tell me you want to contribute
 
 ## Contact
 
